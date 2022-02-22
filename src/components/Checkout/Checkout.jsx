@@ -1,4 +1,3 @@
-import { SportsBasketball } from "@material-ui/icons";
 import React from "react";
 import "./Checkout.css";
 import CheckoutProduct from "../CheckoutProduct/CheckoutProduct";
@@ -6,7 +5,7 @@ import Subtotal from "../Subtotal/Subtotal";
 import { useStateValue } from "../Store/StateProvider";
 
 function Checkout() {
-  const [{ basket }, dispatch] = useStateValue();
+  const [{ basket }] = useStateValue();
   
   return (
     <div className="checkout">
