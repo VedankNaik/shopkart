@@ -1,8 +1,14 @@
+import { useEffect } from "react";
 import "./Home.css";
 import bgimage from "../../resources/ecommerce.jpg";
 import Product from "../Product/Product";
 
 function Home() {
+
+  useEffect(() => {
+    
+  });
+
   return (
     <div className="home">
       <div className="home__container">
